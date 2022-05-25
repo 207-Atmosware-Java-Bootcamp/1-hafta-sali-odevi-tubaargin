@@ -1,0 +1,167 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Ödev-5</title>
+    <link rel="stylesheet" href="../css/odev5.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Body of Form starts -->
+    <div class="container">
+      <form method="post" autocomplete="on">
+        <!--First name-->
+        <div class="box">
+          <label for="firstName">Name: </label>
+
+          <div class="fr">
+            <input
+              type="text"
+              name="firstName"
+              placeholder="Your Name"
+              class="textBox"
+              autofocus="on"
+              required
+            />
+          </div>
+        </div>
+        <!--First name-->
+
+        <!--Email ID-->
+        <div class="box">
+          <label for="email"> Email: </label>
+
+          <div class="fr">
+            <input
+              type="email"
+              required
+              name="email"
+              placeholder="Your Email"
+              class="textBox"
+            />
+          </div>
+        </div>
+        <!--Email ID-->
+
+        <!--Password-->
+        <div class="box">
+          <label for="password"> Password: </label>
+
+          <div class="fr">
+            <input
+              type="Password"
+              required
+              name="password"
+              placeholder="Password"
+              class="textBox"
+            />
+          </div>
+        </div>
+        <!--Password-->
+
+        <!--Phone No-->
+        <div class="box">
+          <label for="phone"> Phone Number: </label>
+
+          <div class="fr">
+            <input
+              type="text"
+              required
+              name="phoneNo"
+              placeholder="Phone No"
+              class="textBox"
+            />
+          </div>
+        </div>
+        <!--Phone No-->
+
+        <!--Gender-->
+        <div class="radio">
+          <label for="gender"> Gender: </label>
+          <div class="fr">
+            Male:
+            <input
+              type="radio"
+              class="gender"
+              name="Gender"
+              value="Male"
+              required
+            />
+            Female:
+            <input
+              type="radio"
+              class="gender"
+              name="Gender"
+              value="Female"
+              required
+            />
+            Other:
+            <input
+              type="radio"
+              class="gender"
+              name="Gender"
+              value="Female"
+              required
+            />
+          </div>
+        </div>
+        <!--Gende--->
+
+        <!--Language-->
+        <div class="box">
+          <label for="secondName"> Language: </label>
+
+          <div class="fr">
+            <select class="textBox">
+              <option value="1">Select Language</option>
+              <option value="backend_english">English</option>
+              <option value="backend_turkish">Turkish</option>
+            </select>
+          </div>
+        </div>
+        <!--Language-->
+
+        <!--Zip Code-->
+        <div class="box">
+          <label for="secondName"> Zip Code: </label>
+
+          <div class="fr">
+            <input
+              type="text"
+              required
+              name="secondName"
+              placeholder="Zip Code"
+              class="textBox"
+            />
+          </div>
+        </div>
+        <!--Zip Code-->
+
+        <!--About Code-->
+        <div class="box">
+          <label for="secondName"> About: </label>
+
+          <div class="fr">
+            <textarea
+              type="text"
+              id="about"
+              name="about"
+              class="textBox"
+              placeholder="Write About Yourself.."
+            ></textarea>
+          </div>
+        </div>
+        <!--About Code-->
+
+        <!--Submit Button-->
+        <div class="box">
+          <input type="register" value="Register" class="submit" /><br /><br />
+        </div>
+        <!--Submit Button-->
+      </form>
+    </div>
+    <!--Body of Form ends-->
+  </body>
+</html>
