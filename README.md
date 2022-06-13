@@ -1,13 +1,9 @@
 # 1.hafta salı ödevi (24.05.2022)
-##############Araştırma Ödevleri##############
 1) xhtml ile Html5 arasındaki farklar?
 2) semantin non-semanatic yapısı nedir?
 3) table colspan rowspan nedir örneği
+4) Aşağıdaki görsellerin HTML kısmının yapılması yeterli.(Bu örnekler için gün gün öğrenilen teknolojiler eklenecektir.)
 
-##############Proje Ödevleri##############
-
-ÖDEVLERİN HTML KISMININ YAPILMASI YETERLİ
-# Bu örnekler için gün gün öğrenilen teknolojiler eklenecektir.
 #  ![ödev1](https://user-images.githubusercontent.com/87547007/172599355-6618524a-dcbc-4a98-8a5e-199ee23872ba.png)
 #  ![ödev2](https://user-images.githubusercontent.com/87547007/172599537-5c448151-ff68-4a63-bf20-8474e4834165.png)
 #  ![ödev3](https://user-images.githubusercontent.com/87547007/172599599-be13e334-17aa-426d-a4a9-cb6f40ae684a.png)
